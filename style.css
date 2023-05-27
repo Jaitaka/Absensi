@@ -14,3 +14,28 @@ h1 {
 .form-select {
   margin: 1rem;
 }
+
+/* media queries */
+
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 500px) {
+  html {
+    font-size: 60%;
+  }
+}
+/* Mobile */
+@media (max-width: 300px) {
+  html {
+    font-size: 45%;
+  }
+  /* .footer {
+    margin-top: 40rem;
+  } */
+}
